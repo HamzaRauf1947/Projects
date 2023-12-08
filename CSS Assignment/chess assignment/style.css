@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.container{
+    text-align: center;
+
+
+}
+.box{
+    width: 116px;
+    height: 116px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px;
+    font-size: 80px;
+    
+}
+.black{
+    background-color: black;
+    color: white;
+    
+    
+    
+}
+
