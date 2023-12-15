@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContainer {
+    width: 66vw;
+    height: 100vh;
+    /* Comment below line */
+    /* border: 2px solid black; */
+
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 550;
+    color: rgb(57, 74, 91);
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: 51px;
+
+}
+
+.logop::first-letter {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+nav li {
+    list-style: none;
+
+
+
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 62px;
+    margin-right: 20px;
+
+
+
+}
+
+a,
+button {
+    color: rgb(57, 74, 91);
+    font-weight: bold;
+
+}
+
+.heroSection {
+    width: 68vw;
+    height: 79vh;
+    margin-top: 90px;
+    padding: 0;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.para {
+    padding-top: 20px;
+    line-height: 1.5em;
+    color: rgb(127, 127, 127);
+
+
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #00416A;
+}
+
+.btn1 {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #0047AB;
+    color: white;
+
+}
+
+.btn2 {
+    border: 2px solid #dcdcdc;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: #00416A;
+    background-color: #dcdcdc;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.img {
+    background-image: url("./image34.jpg");
+    background-size: cover;
+    height: 74vh;
+    width: 37vw;
+    border-radius: 38px;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+
+    margin-right: 20px;
+}
+a:hover{
+    color: #71c3f6;
+}
